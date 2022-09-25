@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* input tag section */
+.tags-input {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 0 8px;
+  border: 1px solid #d6d8da;
+  border-radius: 6px;
+}
+.tags-input input {
+  flex: 1;
+  border: none;
+}
+.tags-input input:focus {
+  outline: transparent;
+}
+#tags {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 8px 0 0 0;
+}
+.tag {
+  width: auto;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 0 8px;
+  font-size: 14px;
+  list-style: none;
+  border-radius: 6px;
+  margin: 0 8px 8px 0;
+  background: rgb(104, 103, 184);
+}
+.tag .tag-title {
+  margin-top: 3px;
+}
+.tag .tag-close-icon {
+  display: block;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 8px;
+  color: #0052cc;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+}
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #ced4da;
+  box-shadow: none;
+}
+/* custom button styles */
+.btn {
+  -webkit-appearance: button;
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  border-width: 2px;
+  font-weight: 400;
+  font-size: 0.8571em;
+  line-height: 1.35em;
+  margin: 10px 1px;
+  border: none;
+  border-radius: 0.1875rem;
+  padding: 11px 22px;
+  background-color: #888888;
+  color: #ffffff;
+  cursor: pointer;
+}
+.btn:hover,
+.btn:focus,
+.btn:not(:disabled):not(.disabled):active,
+.btn:not(:disabled):not(.disabled):active:focus,
+.btn:active:hover {
+  background-color: #979797;
+  color: #ffffff;
+  box-shadow: none;
+}
+.btn.btn-primary {
+  background-color: #f96332;
+  color: #ffffff;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:active:hover {
+  background-color: #fa7a50;
+  color: #ffffff;
+  box-shadow: none;
+}
+.btn.btn-info {
+  background-color: #2ca8ff;
+  color: #ffffff;
+}
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:not(:disabled):not(.disabled):active,
+.btn-info:not(:disabled):not(.disabled):active:focus,
+.btn-info:active:hover {
+  background-color: #4bb5ff;
+  color: #ffffff;
+  box-shadow: none;
+}
+.btn.btn-success {
+  background-color: #18ce0f;
+  color: #ffffff;
+}
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:not(:disabled):not(.disabled):active,
+.btn-success:not(:disabled):not(.disabled):active:focus,
+.btn-success:active:hover {
+  background-color: #1beb11;
+  color: #ffffff;
+  box-shadow: none;
+}
+.btn.btn-warning {
+  background-color: #ffb236;
+  color: #ffffff;
+}
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:not(:disabled):not(.disabled):active,
+.btn-warning:not(:disabled):not(.disabled):active:focus,
+.btn-warning:active:hover {
+  background-color: #ffbe55;
+  color: #ffffff;
+  box-shadow: none;
+}
+.btn.btn-danger {
+  background-color: #ff3636;
+  color: #ffffff;
+}
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:not(:disabled):not(.disabled):active,
+.btn-danger:not(:disabled):not(.disabled):active:focus,
+.btn-danger:active:hover {
+  background-color: #ff5555;
+  color: #ffffff;
+  box-shadow: none;
+}
+.btn.btn-neutral {
+  background-color: #ffffff;
+  color: #f96332;
+}
+.btn-neutral:hover,
+.btn-neutral:focus,
+.btn-neutral:not(:disabled):not(.disabled):active,
+.btn-neutral:not(:disabled):not(.disabled):active:focus,
+.btn-neutral:active:hover {
+  background-color: #ffffff;
+  color: #fa7a50;
+  box-shadow: none;
+}
+span.note-tags {
+  padding: 2px 4px;
+  background-color: #ffb236;
+  color: #ffffff;
+  border-radius: 0.1875rem;
+  margin-right: 2px;
+}
+span.note-date {
+  font-size: 0.6rem;
+  font-weight: bold;
+}
